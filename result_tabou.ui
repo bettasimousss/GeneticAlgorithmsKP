@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Result_Tabou</class>
+ <widget class="QDialog" name="Result_Tabou">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>40</y>
+     <width>491</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Evaluation</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Volume consommée</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Temps d'éxecution</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>360</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sortir</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="verticalGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>251</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Chromosme de la solution trouvée</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="columnCount">
+       <number>2</number>
+      </property>
+      <column>
+       <property name="text">
+        <string>Objet n°</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Valeur</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
